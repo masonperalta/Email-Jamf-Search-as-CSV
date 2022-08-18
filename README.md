@@ -7,6 +7,7 @@ This script does the following:
 * Emails CSV to a specified email address
 
 Note this version uses Sendgrid SMTP Relay for the outgoing email account.
+Additionally, "search_id" refers to the ID of the Advanced Search you are downloading.
 
 ### Configure .env as follows:
 ```xml
