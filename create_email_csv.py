@@ -18,10 +18,7 @@ load_dotenv()
 
 
 
-
 def init_variables():
-	
-	# Jamf API credentials
 	jss = os.environ.get("jss")
 	api_user = os.environ.get("api_user")
 	api_pw = os.environ.get("api_pw")
