@@ -11,8 +11,8 @@ Note this version uses Sendgrid SMTP Relay for the outgoing email account.
 ### Configure .env as follows:
 ```xml
 jss = "https://myJamfInstance.jamfcloud.com"
-api_user = "jamfuser"
-api_pw = "jamfuser-credentials"
+api_user = "jamf_user"
+api_pw = "jamf_user_credentials"
 tmp_path = "/tmp/"
 email_api_user = "apikey"
 email_api_key = "apikey_string"
